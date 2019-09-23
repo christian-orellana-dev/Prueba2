@@ -1,0 +1,21 @@
+.button {
+    height: 30px;
+    width: 100px;
+    background-color: $ball-blue;
+    color: $white;
+    font-family: $open-sans;
+    font-size: $medium;
+    font-weight: $bold;
+    border: 0;
+    margin: 2px;
+    cursor: pointer;
+
+    &__small {
+        padding: 2px 5px;
+        margin-left: 10%;
+    }
+    &__large {
+        padding: 10px 15px;
+    }
+
+}

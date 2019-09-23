@@ -1,0 +1,49 @@
+.features {
+    &__content {
+        grid-gap: 1rem;
+        height: 300px;
+
+        &__text {
+            padding: 10px 30px;
+        }
+        &__graphic {
+            padding: 10px 30px;
+
+            &__image {
+                animation: opacidad 3s ease-in-out 0s infinite;
+            }
+        }
+    }
+}  
+
+@media only screen and (min-width: 768px){
+    .features {
+        &__content {
+            &__text {
+                padding: 1% 15% 5% 15%;  
+            }
+            &__graphic {
+                padding: 1% 15% 5% 15%;  
+
+                &__image {
+                    height: auto;
+                    width: 100%;
+                }
+            }   
+        }
+    }  
+}
+
+@media only screen and (min-width: 1200px){
+    .features {
+        &__content {
+            &__text {
+                padding: 1% 15% 5% 1%;  
+            }
+            &__graphic {
+                padding: 1% 15% 5% 1%;
+            }   
+        }
+    }  
+}
+

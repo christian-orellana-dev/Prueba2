@@ -1,0 +1,21 @@
+
+.prices {
+    // background-color: $onyx;
+    height: auto;
+    width: auto;
+    background-image: url(../img/bg-price.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: $white;
+
+    &__header {
+        height: 200px;
+
+        & h1 {
+            padding: 10%;
+        }
+    }
+
+}
+

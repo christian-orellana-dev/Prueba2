@@ -1,0 +1,56 @@
+.main {
+    height: 400px;
+
+    &__content {
+        padding: 100px;
+        width: auto;
+    }
+
+    &__image {
+        height: 400px;
+        width: 400px;
+        padding: 10px;
+
+        &__background {
+            height: 400px;
+            width: 400px;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .main {
+        position: relative;
+        height: 800px;
+
+        &__content {
+            position: absolute;
+            padding: 100px;
+            width: 400px;
+            height: 200px;
+            margin-left: 3%;
+        }
+        
+        &__image__background {
+            position: absolute;
+            height: auto;
+            width: 100%;
+        }
+    }
+}
+
+// .main {
+//     border: 1px solid blue;
+//     color: gray;
+
+//     &__left-block {
+//         background-color: red;
+//     }
+//     &__header {
+//         background-color: antiquewhite;
+//     }
+//     &__content {
+//         background-color: blue;
+//     }
+// }

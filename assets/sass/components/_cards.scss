@@ -1,0 +1,78 @@
+.card {
+    background-color: $white;
+    color: $raising-black;
+    height: 680px;
+    width: 300px;
+    border: 1px solid $spanish-gray;
+    margin: 30px auto;
+    text-align: left;
+
+    &__head {
+        font-size: $large;
+        height: 140px;
+        width: auto;
+        margin: 0 10%;
+        padding: 0;
+        border-bottom: 1px solid $spanish-gray;
+        &__price {
+            font-size: $x-large;
+            font-weight: $bold;
+            padding-bottom: 1%;
+        }
+    }
+    &__body {
+        height: 350px;
+        width: auto;
+        margin: 2% 10%;
+        padding: 0;
+        border-bottom: 1px solid $spanish-gray;
+    }
+    &__button {
+        text-align: center;
+        height: 50px;
+        width: auto;
+        margin: 7% 10%;
+        padding: 1%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        height: 500px;
+        width: 350px;
+        margin-left: 30%;
+    
+        &__head {
+            height: 95px;
+            width: auto;
+        }
+        &__body {
+            height: 250px;
+            width: auto;
+        }
+        &__button {
+            height: 50px;
+            width: auto;
+        }
+    }
+}
+
+// @media only screen and (min-width: 1200px) {
+//     .card {
+//         height: 500px;
+//         width: 350px;
+//         margin-left: 10%;
+    
+//         &__head {
+//             height: 100px;
+//         }
+//         &__body {
+//             height: 400px;
+//         }
+//         &__button {
+//             height: 100px;
+//         }
+//     }
+// }
+
+
